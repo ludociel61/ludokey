@@ -1,15 +1,3 @@
-[+] Developed By: @ludo
-[+] Programin Ismi: LudoKey
-[+] Programin Surumu: 1.0
-[+] Kullanilan Programlama Dilleri: C++
-
-[https://i.pinimg.com/originals/34/47/47/3447473838ac39c35bbb5f6b8f2921e3.gif]
-
-Terminalle ic ice oldugum donemlerde boyle bir araca ihtiyac duymustum; kendimi daha cok terminale bagimli kilmak ve bulut tabanli parola yoneticilerine guvenmedigim icin bu cozum ortaya cikti. Sade, hizli ve tamamen kontrolumde olan islevsel bir arac oldu.
-
-LudoKey, terminal ortaminda calisan, verilerinizi uctan uca sifreleyerek tamamen sizin kontrolunuzde tutan hafif ve guvenli bir parola yoneticisidir. Hassas bilgilerinizi not defterlerinde veya bulut servislerinde saklamak yerine, komut satiri uzerinde endustri standardi kriptografik metotlarla korunmasi amaciyla tarafimca gelistirilmistir.
-
-
 ## Nasil Calisir?
 
 Uygulamaya belirlediginiz master sifre, tum bilgilerinizin anahtaridir. Girdiginiz her hesap bilgisi (servis adi, kullanici adi ve parola), AES-256-CBC algoritmasiyla sifrelenerek diske yazilir. Bu sifreleme icin gereken anahtar, master sifrenizden PBKDF2 (SHA-256, 10.000 iterasyon) yontemiyle tuyretilir.
