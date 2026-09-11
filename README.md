@@ -15,8 +15,8 @@ sudo apt-get install libssl-dev
 
 2. Depoyu klonlayin ve dizine girin:
 
-bash
 git clone https://github.com/ludociel61/ludokey.git
+
 cd ludokey
 
 3. Kaynak kodunu derleyin:
