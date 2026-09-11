@@ -29,7 +29,7 @@ bash
 ./ludokey
 
 
-## Temel Yetenekler
+## Temel Özellikler
 
 * Yeni hesap ekleme ve aninda sifreli olarak diske kaydetme
 * Kayitli tum hesaplari guvenli bir sekilde listeleme
