@@ -145,7 +145,7 @@ bool aesCoz(const string& girisHex, const string& masterSifre, string& temizMeti
 
     if (1 != EVP_DecryptFinal_ex(ctx, cozulmusVeri.data() + len, &len)) {
         EVP_CIPHER_CTX_free(ctx);
-        return false; // Yanlış master şifre girilirse burada hata yakalanır
+        return false; // Yanlış master şifre haya ayıklama
     }
     cozulmusUzunluk += len;
     EVP_CIPHER_CTX_free(ctx);
@@ -201,7 +201,7 @@ bool kasayiDisktenOku(const string& dosyaAdi, vector<Hesap>& hesaplar, const str
             }
         } else {
             dosya.close();
-            return false; // Şifre yanlış
+            return false; 
         }
     }
     dosya.close();
