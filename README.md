@@ -21,7 +21,6 @@ cd ludokey
 
 3. Kaynak kodunu derleyin:
 
-bash
 g++ main.cpp -o ludokey -lssl -lcrypto
 
 4. Programi calistirin:
